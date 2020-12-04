@@ -1,0 +1,39 @@
+.timeline-title {
+    height: 50px;
+    margin: 0 40px 20px 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.timeline-title span {
+    color: #FFFFFF;
+    font-size: 30px;
+    background-color: var(--color-5);
+    display: inline-block;
+    padding: 2px 20px;
+    text-transform: uppercase;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: var(--color-5);
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .timeline-container::before {
+        left: 31px;
+    }
+}
