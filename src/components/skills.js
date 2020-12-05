@@ -7,7 +7,7 @@ import "../styles/utils.css";
 function Skills() {
   return (
     <div className="skills-container">
-      <div className="session-title skill-title"><span>skills</span></div>
+      <div className="session-title skill-title"><span>Skills</span></div>
       <div className="skills-box">
         {skills.map((skill, index) => (
           <SkillItem data={skill} key={index}/>
