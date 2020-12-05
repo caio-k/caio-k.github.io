@@ -1,0 +1,30 @@
+.skill-title {
+    height: 50px;
+    margin: 0 40px 20px 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.skill-title span {
+    color: #FFFFFF;
+    font-size: 30px;
+    background-color: var(--color-5);
+    display: inline-block;
+    padding: 2px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 200px;
+}
+
+.skills-container {
+    margin: 50px 0;
+}
+
+.skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}

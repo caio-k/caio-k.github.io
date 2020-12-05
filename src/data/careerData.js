@@ -1,4 +1,4 @@
-const data = [
+const careerData = [
   {
     title: "Development Intern",
     institution: "Gradus Softwares de Gestão",
@@ -16,4 +16,4 @@ const data = [
   }
 ];
 
-export default data;
+export default careerData;

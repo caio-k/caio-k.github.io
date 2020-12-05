@@ -10,4 +10,8 @@ body {
   --color-3: #E0FBFC;
   --color-4: #EE6C4D;
   --color-5: #293241;
+  --color-backend: #06D6A0;
+  --color-frontend: #EF476F;
+  --color-database: #FFD166;
+  --color-other-skill: #118AB2;
 }
