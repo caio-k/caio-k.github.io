@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import photo from "../assets/photo.jpeg";
+import house from "../assets/house.svg";
 
 function Header() {
   return (
@@ -13,6 +14,10 @@ function Header() {
         </div>
         <div className="second-column-header">
           <img src={photo} alt={"Me"} width="300" height="300"/>
+          <div>
+            <img src={house} alt={"House"} width="30" height="30"/>
+            <p>São Paulo</p>
+          </div>
         </div>
       </div>
       <div className="waves">

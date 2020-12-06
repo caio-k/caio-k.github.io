@@ -11,6 +11,8 @@
     color: var(--color-3);
     background-color: var(--color-1);
     margin-bottom: 150px;
+    align-items: center;
+    padding: 40px 0;
 }
 
 .first-column-header {
@@ -38,12 +40,23 @@
 .second-column-header {
     width: 50%;
     display: flex;
-    margin-top: 100px;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.second-column-header img {
+.second-column-header > img {
     border-radius: 50%;
+}
+
+.second-column-header > div {
+    display: flex;
+    margin-top: 10px;
+}
+
+.second-column-header > div > p {
+    font-size: 20px;
+    margin: 10px 0 0 15px;
 }
 
 .header .wave {
@@ -108,6 +121,7 @@
 
 @media screen and (max-width: 1000px) {
     .header-content {
+        padding-top: 0;
         flex-direction: column;
     }
 
