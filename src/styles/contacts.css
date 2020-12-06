@@ -1,0 +1,33 @@
+.contacts-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacts-container h4 {
+    font-weight: lighter;
+}
+
+.contacts-title {
+    border-bottom: 2px solid var(--color-5);
+}
+
+.contacts-title span {
+    color: var(--color-5);
+}
+
+.contacts-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-content a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contacts-content img {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+}
