@@ -1,43 +1,43 @@
 const skills = [
   {
     skill: "Java",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-backend')
+    backgroundColor: "--color-backend"
   },
   {
     skill: "Spring Boot",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-backend')
+    backgroundColor: "--color-backend"
   },
   {
     skill: "C",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-backend')
+    backgroundColor: "--color-backend"
   },
   {
     skill: "SQL",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-database')
+    backgroundColor: "--color-database"
   },
   {
     skill: "Git",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-other-skill')
+    backgroundColor: "--color-other-skill"
   },
   {
     skill: "HTML",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-frontend')
+    backgroundColor: "--color-frontend"
   },
   {
     skill: "CSS",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-frontend')
+    backgroundColor: "--color-frontend"
   },
   {
     skill: "JavaScript",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-frontend')
+    backgroundColor: "--color-frontend"
   },
   {
     skill: "ReactJS",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-frontend')
+    backgroundColor: "--color-frontend"
   },
   {
     skill: "AngularJS",
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--color-frontend')
+    backgroundColor: "--color-frontend"
   }
 ]
 
