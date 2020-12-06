@@ -7,14 +7,6 @@
     font-weight: lighter;
 }
 
-.contacts-title {
-    border-bottom: 2px solid var(--color-5);
-}
-
-.contacts-title span {
-    color: var(--color-5);
-}
-
 .contacts-content {
     width: 100%;
     display: flex;

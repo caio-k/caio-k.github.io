@@ -3,14 +3,6 @@
     background: var(--color-5);
 }
 
-.timeline-title {
-    border-bottom: 2px solid var(--color-3);
-}
-
-.timeline-title span {
-    color: var(--color-3);
-}
-
 .timeline-container {
     max-width: 1200px;
     margin: 40px auto;

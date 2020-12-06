@@ -1,6 +1,6 @@
 import React from "react";
+import SessionTitle from "./sessionTitle";
 import "../styles/contacts.css";
-import "../styles/utils.css";
 import linkedinIcon from "../assets/linkedin.svg";
 import githubIcon from "../assets/github.svg";
 import resumeIcon from "../assets/relatorio.svg";
@@ -8,7 +8,7 @@ import resumeIcon from "../assets/relatorio.svg";
 function Contacts() {
   return (
     <div className="contacts-container">
-      <div className="session-title contacts-title"><span>Contacts</span></div>
+      <SessionTitle title={"Contacts"} color={"--color-5"}/>
       <h4>Lets get in touch</h4>
       <div className="contacts-content">
 

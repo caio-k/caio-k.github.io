@@ -3,6 +3,7 @@
     width: 50%;
     padding: 30px;
     margin: 0 auto 30px;
+    border-bottom: 2px solid;
 }
 
 .session-title span {

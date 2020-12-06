@@ -1,11 +1,3 @@
-.skill-title {
-    border-bottom: 2px solid var(--color-5);
-}
-
-.skill-title span {
-    color: var(--color-5);
-}
-
 .skills-container {
     margin-bottom: 50px;
 }

@@ -2,12 +2,12 @@ import React from "react";
 import skills from "../data/skills";
 import SkillItem from "./skillItem";
 import "../styles/skills.css";
-import "../styles/utils.css";
+import SessionTitle from "./sessionTitle";
 
 function Skills() {
   return (
     <div className="skills-container">
-      <div className="session-title skill-title"><span>Skills</span></div>
+      <SessionTitle title={"Skills"} color={"--color-5"}/>
       <div className="skills-box">
         {skills.map((skill, index) => (
           <SkillItem data={skill} key={index}/>
