@@ -1,0 +1,27 @@
+.projects-session {
+    background: var(--color-2);
+    padding-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: 20px;
+}
+
+.project-description {
+    width: 350px;
+    text-align: center;
+}
+
+.project-gif img {
+    width: 100%;
+}
