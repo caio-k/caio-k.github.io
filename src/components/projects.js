@@ -10,7 +10,7 @@ function Projects() {
       <SessionTitle title={"Projects"} color={"--color-5"}/>
 
       <div className="projects">
-        
+
         <div className="project">
           <div className="project-description">
             <h3>Sorting Visualizer</h3>
@@ -32,7 +32,7 @@ function Projects() {
           </div>
 
           <div className="project-gif">
-            <img src={safeSchoolGIF} alt={"Sorting Visualizer GIF"}/>
+            <img src={safeSchoolGIF} alt={"Safe School GIF"}/>
           </div>
         </div>
       </div>
