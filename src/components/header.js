@@ -10,7 +10,7 @@ function Header() {
         <div className="first-column-header">
           <h1>Hello, My Name is <span>Caio</span></h1>
           <h2>I like to solve problems, especially when I help other people with my solution. I'm always trying to learn
-            during the process, as well as always open to new challenges and ready to face changes.</h2>
+            during the process, just as I'm always open to new challenges and ready to face changes.</h2>
         </div>
         <div className="second-column-header">
           <img src={photo} alt={"Me"} width="300" height="300"/>
