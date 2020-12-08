@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/skill-item.css";
 
-const SkillItem = ({data}) => (
-  <div style={{background: getComputedStyle(document.body).getPropertyValue(data.backgroundColor)}} className="skill-content">
-    <span style={{color: "#FFF"}}>
-    {data.skill}
-    </span>
+const SkillItem = ({img, text}) => (
+  <div className="skill-content">
+    <img src={img} alt={text} width={55} height={55}/>
+    <br/>
+    <span>{text}</span>
   </div>
 )
 

@@ -1,19 +1,6 @@
 .skill-content {
-    width: 200px;
     text-align: center;
-    font-size: 1.5em;
-    padding: 15px 0;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.skill-content:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s;
-}
-
-@media screen and (min-width: 360px) and (max-width: 440px) {
-    .skill-content {
-        width: calc(50% - 40px);
-    }
+    width: 60px;
+    height: 100px;
+    margin: 0 50px
 }
