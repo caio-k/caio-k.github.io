@@ -9,6 +9,9 @@ function Projects() {
     <div className="projects-session">
       <SessionTitle title={"Projects"} color={"--color-5"}/>
 
+      <p>Below are some projects I participated in. You can see my other projects on my <a
+        href="https://github.com/caio-k">Github</a>.</p>
+
       <div className="projects">
 
         <div className="project">
