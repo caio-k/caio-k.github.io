@@ -1,6 +1,5 @@
 import React from "react";
 import SkillItem from "./skillItem";
-import "../styles/skills.css";
 import SessionTitle from "./sessionTitle";
 import angularIcon from "../assets/skillsIcon/angular.svg";
 import cIcon from "../assets/skillsIcon/c.svg";
@@ -12,6 +11,7 @@ import jsIcon from "../assets/skillsIcon/js.svg";
 import reactJsIcon from "../assets/skillsIcon/react.svg";
 import springIoIcon from "../assets/skillsIcon/springio.svg";
 import sqlIcon from "../assets/skillsIcon/sql.svg";
+import "../styles/skills.css";
 
 function Skills() {
   return (
@@ -34,9 +34,6 @@ function Skills() {
           <SkillItem img={cssIcon} text={"CSS"}/>
           <SkillItem img={jsIcon} text={"Javascript"}/>
           <SkillItem img={reactJsIcon} text={"ReactJS"}/>
-        </div>
-
-        <div className="skill-box">
           <SkillItem img={springIoIcon} text={"Spring Boot"}/>
           <SkillItem img={cIcon} text={"C"}/>
         </div>
