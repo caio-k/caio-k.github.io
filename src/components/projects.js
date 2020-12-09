@@ -10,7 +10,7 @@ function Projects() {
       <SessionTitle title={"Projects"} color={"--color-5"}/>
 
       <p>Below are some projects I participated in. You can see my other projects on my <a
-        href="https://github.com/caio-k">Github</a>.</p>
+        href="https://github.com/caio-k">GitHub</a>.</p>
 
       <div className="projects">
 
