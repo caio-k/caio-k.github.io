@@ -1,145 +1,114 @@
 .header {
-    position: relative;
-    width: 100%;
-    background-color: var(--color-1);
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: var(--color-6);
+    color: #FFFFFF;
 }
 
-.header-content {
+.header-first-part {
     display: flex;
-    flex-direction: row;
-    color: var(--color-3);
-    background-color: var(--color-1);
-    margin-bottom: 150px;
-    align-items: center;
-    padding: 40px 0;
-}
-
-.first-column-header {
-    width: 50%;
-    display: flex;
-    text-align: center;
     justify-content: center;
     flex-direction: column;
+    width: 500px;
+    height: 350px;
 }
 
-.first-column-header h1 {
-    font-size: 50px;
+.header-first-part p {
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 600;
+}
+
+.header-second-part {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    perspective: 700px;
+}
+
+.header-info-box {
+    width: 300px;
+    height: 400px;
+    background: var(--color-6);
+    position: absolute;
+    transform: rotate3d(.5, -.866, 0, 15deg) rotate(-1deg);
+    border: 1px solid var(--color-7);
+    border-radius: 4px;
+    box-shadow: 0 38px 40px -17.5px rgba(0, 0, 0, .4), 46px 38px 70px -7.5px rgba(0, 0, 0, .5);
+}
+
+.header-profile-title {
+    background: var(--color-7);
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.header-profile-content {
     padding: 10px;
 }
 
-.first-column-header h2 {
-    font-size: 28px;
-    padding: 10px 20px;
-}
-
-.first-column-header span {
-    color: var(--color-4);
-}
-
-.second-column-header {
-    width: 50%;
+.header-profile-img {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 
-.second-column-header > img {
+.header-profile-img > img {
     border-radius: 50%;
+    border: 1px solid var(--color-7);
 }
 
-.second-column-header > div {
-    display: flex;
+.header-profile-info {
+    width: calc(100% - 10px);
+    height: 130px;
     margin-top: 10px;
+    padding: 5px;
+    background: var(--color-7);
+    font-family: Source Code Pro, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: var(--color-12);
 }
 
-.second-column-header > div > p {
-    font-size: 20px;
-    margin: 10px 0 0 15px;
+.object-type {
+    color: var(--color-8);
 }
 
-.header .wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url("../assets/wave.png");
-    background-size: 1000px 100px;
+.object-name {
+    color: var(--color-9);
 }
 
-.header .waves .wave1 {
-    animation: animate 30s linear infinite;
-    z-index: 1000;
-    opacity: 1;
-    animation-delay: 0s;
-    bottom: 0;
+.reserved {
+    color: var(--color-10);
 }
 
-.header .waves .wave2 {
-    animation: animate2 15s linear infinite;
-    z-index: 999;
-    opacity: 0.5;
-    animation-delay: -5s;
-    bottom: 10px;
+.attribute {
+    color: var(--color-11);
 }
 
-.header .waves .wave3 {
-    animation: animate 30s linear infinite;
-    z-index: 998;
-    opacity: 0.2;
-    animation-delay: -2s;
-    bottom: 15px;
-}
-
-.header .waves .wave4 {
-    animation: animate2 5s linear infinite;
-    z-index: 997;
-    opacity: 0.7;
-    animation-delay: -5s;
-    bottom: 20px;
-}
-
-@keyframes animate {
-    0% {
-        background-position-x: 0;
-    }
-    100% {
-        background-position-x: 1000px;
-    }
-}
-
-@keyframes animate2 {
-    0% {
-        background-position-x: 0;
-    }
-    100% {
-        background-position-x: -1000px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .header-content {
-        padding-top: 0;
+@media screen and (max-width: 710px) {
+    .header {
         flex-direction: column;
+        height: 600px;
+        justify-content: flex-start;
     }
 
-    .first-column-header, .second-column-header {
+    .header-first-part {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        justify-content: flex-start;
+    }
+
+    .header-second-part {
         width: 100%;
     }
+}
 
-    .second-column-header {
-        margin-top: 20px;
-    }
-
-    .first-column-header h1 {
-        padding-bottom: 0;
-        font-size: 30px;
-    }
-
-    .first-column-header h2 {
-        padding-top: 0;
-        font-size: 20px;
+@media screen and (max-width: 390px) {
+    .header {
+        height: 700px;
     }
 }
