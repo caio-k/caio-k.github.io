@@ -11,11 +11,20 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contacts-content a {
     text-decoration: none;
     color: #000000;
+    padding: 20px 10px;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: all 0.3s;
+}
+
+.contacts-content a:hover {
+    box-shadow: 0 0 35px -2px rgba(0,0,0,.2);
 }
 
 .contacts-content img {
@@ -23,3 +32,47 @@
     height: 60px;
     margin: 0 25px;
 }
+
+.email-session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-session img {
+    cursor: pointer;
+}
+
+#email {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#email:focus {
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.tooltip {
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background: var(--color-6);
+    color: #FFFFFF;
+    border-radius: 3px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s, margin-left 0.4s;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.tooltip.show {
+    opacity: 1;
+    pointer-events: auto;
+    margin: 0 auto;
+}
+

@@ -4,6 +4,7 @@ import "../styles/contacts.css";
 import linkedinIcon from "../assets/linkedin.svg";
 import githubIcon from "../assets/github.svg";
 import resumeIcon from "../assets/relatorio.svg";
+import copyIcon from "../assets/copy.svg";
 
 function Contacts() {
   return (
@@ -30,9 +31,26 @@ function Contacts() {
           <span>Resume</span>
         </a>
       </div>
-      <h4>Email: caionakazawa@usp.br</h4>
+      <div className="email-session">
+        <h4>
+          Email: <input id="email" value="caionakazawa@usp.br" readOnly={true}/>
+        </h4>
+        <img src={copyIcon} alt="Copy" width={20} height={20} onClick={() => copyEmail()}/>
+      </div>
+      <div className="tooltip">Copied!</div>
     </div>
   )
+}
+
+function copyEmail() {
+  const email = document.querySelector("#email");
+  const tooltip = document.querySelector(".tooltip");
+  email.select();
+  document.execCommand("copy");
+  tooltip.classList.add("show");
+  setTimeout(function () {
+    tooltip.classList.remove("show");
+  }, 1000);
 }
 
 export default Contacts;
