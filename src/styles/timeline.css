@@ -1,6 +1,8 @@
 .timeline {
     padding: 20px 0;
-    background: var(--color-5);
+    background: var(--color-6);
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    line-height: 1.7;
 }
 
 .timeline-container {
@@ -15,7 +17,7 @@
     top: 0;
     bottom: 0;
     width: 6px;
-    background: var(--color-3);
+    background: var(--color-14);
     left: 50%;
     margin-left: -3px;
     border-radius: 5px;

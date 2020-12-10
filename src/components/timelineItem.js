@@ -3,7 +3,7 @@ import "../styles/timeline-item.css";
 
 const TimelineItem = ({data, index}) => (
   <div className={index % 2 === 0 ? "timeline-box left" : "timeline-box right"}>
-    <div className="timeline-content">
+    <div className={index % 2 === 0 ? "timeline-content left-content" : "timeline-content right-content"}>
       <span>{data.institution} - {data.title}</span>
 
       <div>
