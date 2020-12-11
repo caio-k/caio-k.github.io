@@ -64,7 +64,7 @@
 }
 
 .timeline-content span, .timeline-content p {
-    color: #445d6e;
+    color: var(--color-15);
 }
 
 .left-content {
@@ -85,7 +85,7 @@
     .timeline-box::before {
         left: 60px;
         border-width: 10px 10px 10px 0;
-        border-color: transparent var(--color-3) transparent transparent;
+        border-color: transparent var(--color-14) transparent transparent;
     }
 
     .left::after, .right::after {
