@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9330505.chunk.css",
-    "main.js": "/static/js/main.8e03c767.chunk.js",
-    "main.js.map": "/static/js/main.8e03c767.chunk.js.map",
+    "main.css": "/static/css/main.1cbc8742.chunk.css",
+    "main.js": "/static/js/main.1e41cca9.chunk.js",
+    "main.js.map": "/static/js/main.1e41cca9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1368bb0f.js",
     "runtime-main.js.map": "/static/js/runtime-main.1368bb0f.js.map",
     "static/js/2.f5b8c8b9.chunk.js": "/static/js/2.f5b8c8b9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.4e6f104b.chunk.js": "/static/js/3.4e6f104b.chunk.js",
     "static/js/3.4e6f104b.chunk.js.map": "/static/js/3.4e6f104b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b9330505.chunk.css.map": "/static/css/main.b9330505.chunk.css.map",
+    "static/css/main.1cbc8742.chunk.css.map": "/static/css/main.1cbc8742.chunk.css.map",
     "static/js/2.f5b8c8b9.chunk.js.LICENSE.txt": "/static/js/2.f5b8c8b9.chunk.js.LICENSE.txt",
     "static/media/angular.07879125.svg": "/static/media/angular.07879125.svg",
     "static/media/c.ac1d78d7.svg": "/static/media/c.ac1d78d7.svg",
@@ -19,21 +19,20 @@
     "static/media/git.53130bb0.svg": "/static/media/git.53130bb0.svg",
     "static/media/github.e0df113a.svg": "/static/media/github.e0df113a.svg",
     "static/media/html.bf6bb1c2.svg": "/static/media/html.bf6bb1c2.svg",
+    "static/media/idea.65e3c669.svg": "/static/media/idea.65e3c669.svg",
     "static/media/java.3c5854fc.svg": "/static/media/java.3c5854fc.svg",
     "static/media/js.a83bda35.svg": "/static/media/js.a83bda35.svg",
     "static/media/linkedin.7defd339.svg": "/static/media/linkedin.7defd339.svg",
     "static/media/photo.02f51df1.jpeg": "/static/media/photo.02f51df1.jpeg",
     "static/media/react.add74742.svg": "/static/media/react.add74742.svg",
     "static/media/relatorio.c4aa68b1.svg": "/static/media/relatorio.c4aa68b1.svg",
-    "static/media/safe-school.6da26ede.gif": "/static/media/safe-school.6da26ede.gif",
-    "static/media/sorting-visualizer.74612609.gif": "/static/media/sorting-visualizer.74612609.gif",
     "static/media/springio.d333f33c.svg": "/static/media/springio.d333f33c.svg",
     "static/media/sql.d89743c9.svg": "/static/media/sql.d89743c9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1368bb0f.js",
     "static/js/2.f5b8c8b9.chunk.js",
-    "static/css/main.b9330505.chunk.css",
-    "static/js/main.8e03c767.chunk.js"
+    "static/css/main.1cbc8742.chunk.css",
+    "static/js/main.1e41cca9.chunk.js"
   ]
 }
