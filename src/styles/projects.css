@@ -58,3 +58,69 @@
     line-height: 1.5;
     color: var(--color-15);
 }
+
+.wrapper {
+    position: absolute;
+    perspective: 1500px;
+    margin-left: 133px;
+    margin-top: 50px;
+}
+
+.box-area {
+    position: relative;
+    transform-style: preserve-3d;
+    animation-name: rotate;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: rotateX(90deg) rotateY(90deg);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate3d(0, 0, 0, 0);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--color-7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-front {
+    transform: translateX(-50px) translateY(-50px) translateZ(50px);
+    background-color: rgba(246, 249, 252, 0.5);
+}
+
+.box-back {
+    transform: translateX(-50px) translateY(-50px) translateZ(-50px);
+    background-color: rgba(21, 49, 75, 0.5);
+}
+
+.box-right {
+    transform: translateY(-50px) rotateY(90deg);
+    background-color: rgba(21, 49, 75, 0.5);
+}
+
+.box-left {
+    transform: translateY(-50px) translateX(-100px) rotateY(90deg);
+    background-color: rgba(21, 49, 75, 0.5);
+}
+
+.box-bottom {
+    transform: translateX(-50px) rotateX(90deg);
+    background-color: rgba(21, 49, 75, 0.5);
+}
+
+.box-top {
+    transform: translateX(-50px) translateY(-100px) rotateX(90deg);
+    background-color: rgba(21, 49, 75, 0.5);
+}

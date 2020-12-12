@@ -1,5 +1,6 @@
 import React from "react";
 import SessionTitle from "./sessionTitle";
+import ideaIcon from "../assets/idea.svg";
 import "../styles/projects.css";
 
 function Projects() {
@@ -36,6 +37,17 @@ function Projects() {
           <h3>Other Projects</h3>
           <div className="project-description">
             <p>You can see my other projects on my GitHub.</p>
+
+            <div className="wrapper">
+              <div className="box-area">
+                <div className="box box-front"><img src={ideaIcon} alt="" width={80} height={80}/></div>
+                <div className="box box-right"/>
+                <div className="box box-back"/>
+                <div className="box box-left"/>
+                <div className="box box-top"/>
+                <div className="box box-bottom"/>
+              </div>
+            </div>
           </div>
           <div className="project-links">
             <a href="https://github.com/caio-k">GitHub</a>
