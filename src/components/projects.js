@@ -1,7 +1,5 @@
 import React from "react";
 import SessionTitle from "./sessionTitle";
-import sortingVisualizerGIF from "../assets/sorting-visualizer.gif";
-import safeSchoolGIF from "../assets/safe-school.gif";
 import "../styles/projects.css";
 
 function Projects() {
@@ -10,22 +8,38 @@ function Projects() {
       <SessionTitle title={"Projects"} color={"--color-5"}/>
 
       <div className="projects-box">
-        <p>Below are some projects I participated in. You can see my other projects on my <a
-          href="https://github.com/caio-k">GitHub</a>.</p>
-
         <div className="project">
           <h3>Sorting Visualizer</h3>
-          <p>This is a visualization tool for sorting algorithms. I used AngularJS in this project, and you can access
-            it <a href="https://caio-k.github.io/sorting-visualizer/#!/">here</a>.</p>
-          <img src={sortingVisualizerGIF} alt={"Sorting Visualizer GIF"}/>
+          <div className="project-description">
+            <p>This is a visualization tool for sorting algorithms. I used AngularJS in this project.</p>
+          </div>
+          <div className="project-links">
+            <a href="https://github.com/caio-k/sorting-visualizer">Code</a>
+            <a href="https://caio-k.github.io/sorting-visualizer/#!/">Application</a>
+          </div>
         </div>
 
         <div className="project">
           <h3>SafeSchool</h3>
-          <p>SafeSchool is a tool to help schools in Covid-19's epoch. It aims to control the flow of students within
-            a school to avoid crowds. I used ReactJS on the front-end and Spring Boot (Java) on the back-end. You can
-            access it <a href="https://safe-school-app.herokuapp.com/">here</a>.</p>
-          <img src={safeSchoolGIF} alt={"Safe School GIF"}/>
+          <div className="project-description">
+            <p>SafeSchool is a tool to help schools in Covid-19's epoch. It aims to control the flow of students within
+              a school to avoid crowds. I used ReactJS on the front-end and Spring Boot (Java) on the back-end.</p>
+          </div>
+          <div className="project-links">
+            <a href="https://github.com/caio-k/rp2-project-webapp">Frontend</a>
+            <a href="https://github.com/caio-k/rp2-project-server">Backend</a>
+            <a href="https://safe-school-app.herokuapp.com/">Application</a>
+          </div>
+        </div>
+
+        <div className="project">
+          <h3>Other Projects</h3>
+          <div className="project-description">
+            <p>You can see my other projects on my GitHub.</p>
+          </div>
+          <div className="project-links">
+            <a href="https://github.com/caio-k">GitHub</a>
+          </div>
         </div>
       </div>
     </div>
