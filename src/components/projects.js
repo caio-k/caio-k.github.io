@@ -53,7 +53,6 @@ function Projects() {
         </div>
 
         <div className="project">
-          <div className="project-symbol"><span className="infinite-symbol">∞</span></div>
           <h5>Other Projects</h5>
           <div className="project-description">
             <p>You can see my other projects on my GitHub.</p>
