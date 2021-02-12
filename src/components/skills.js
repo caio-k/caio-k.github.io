@@ -11,6 +11,7 @@ import jsIcon from "../assets/skillsIcon/js.svg";
 import reactJsIcon from "../assets/skillsIcon/react.svg";
 import springIoIcon from "../assets/skillsIcon/springio.svg";
 import sqlIcon from "../assets/skillsIcon/sql.svg";
+import herokuIcon from "../assets/skillsIcon/heroku.svg";
 import "../styles/skills.css";
 
 function Skills() {
@@ -36,6 +37,7 @@ function Skills() {
           <SkillItem img={reactJsIcon} text={"ReactJS"}/>
           <SkillItem img={springIoIcon} text={"Spring Boot"}/>
           <SkillItem img={cIcon} text={"C"}/>
+          <SkillItem img={herokuIcon} text={"Heroku"}/>
         </div>
       </div>
     </div>
