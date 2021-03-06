@@ -4,7 +4,7 @@ import photo from "../assets/photo.jpeg";
 
 function Header() {
   return (
-    <div className="header">
+    <header>
       <div className="header-first-part">
         <h1>Hello, my name is <span>Caio</span>!</h1>
         <p>I like to solve problems, especially when I help other people with my solution. I'm always trying to learn
@@ -52,7 +52,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   )
 }
 

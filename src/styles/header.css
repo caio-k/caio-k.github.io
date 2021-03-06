@@ -1,4 +1,4 @@
-.header {
+header {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -89,7 +89,7 @@
 }
 
 @media screen and (max-width: 710px) {
-    .header {
+    header {
         flex-direction: column;
         height: 600px;
         justify-content: flex-start;
@@ -109,7 +109,7 @@
 }
 
 @media screen and (max-width: 390px) {
-    .header {
+    header {
         height: 700px;
     }
 }

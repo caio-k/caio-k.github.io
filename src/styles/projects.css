@@ -44,7 +44,7 @@
     background: #FFFFFF;
     border-top: 4px solid var(--color-11);
     box-shadow: 0 2px 10px rgba(50, 50, 93, .1);
-    padding: 15px;
+    padding: 15px 15px 6px 15px;
     position: relative;
 }
 

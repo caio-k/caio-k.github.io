@@ -8,7 +8,7 @@ import copyIcon from "../assets/copy.svg";
 
 function Contacts() {
   return (
-    <div className="contacts-container">
+    <footer className="contacts-container">
       <SessionTitle title={"Contacts"} color={"--color-5"}/>
       <h4>Lets get in touch</h4>
       <div className="contacts-content">
@@ -38,7 +38,7 @@ function Contacts() {
         <img src={copyIcon} alt="Copy" width={20} height={20} onClick={() => copyEmail()}/>
       </div>
       <div className="tooltip">Copied!</div>
-    </div>
+    </footer>
   )
 }
 
