@@ -27,19 +27,36 @@
     box-shadow: inset 100px 0 0 0 var(--color-15);
 }
 
-.projects-box {
-    display: flex;
-    justify-content: center;
-    max-width: 750px;
-    flex-wrap: wrap;
-    margin: 30px auto 10px;
-    font-family: Open Sans, Helvetica, Arial, sans-serif;
+.projects-carousel {
+    max-width: 990px;
+    margin: 40px auto 0;
+}
+
+.projects-carousel-nav {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0 2px 4px 1px rgba(50, 50, 93, 0.1);
+    border-radius: 50%;
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+    outline: none;
+    color: var(--color-15);
+    font-size: 25px;
+}
+
+.projects-carousel-nav:hover {
+    bottom: 4px;
 }
 
 .project {
     width: 270px;
     height: 280px;
-    margin: 25px 30px;
+    margin: 25px auto;
     border-radius: 5px;
     background: #FFFFFF;
     border-top: 4px solid var(--color-11);
@@ -87,6 +104,7 @@
 }
 
 .project p {
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
     line-height: 1.8;
     font-size: 14px;
     color: var(--color-13);
