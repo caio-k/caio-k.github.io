@@ -17,10 +17,6 @@
     transition: background-color 0.2s ease-in-out;
 }
 
-.timeline-box:hover::after {
-    background: var(--color-11);
-}
-
 .left {
     left: 0;
 }
@@ -73,11 +69,11 @@
     color: var(--color-13);
 }
 
-.left-content {
+.left > div {
     border-left: 5px solid var(--color-11);
 }
 
-.right-content {
+.right > div {
     border-right: 5px solid var(--color-11);
 }
 
@@ -103,7 +99,7 @@
         left: 0;
     }
 
-    .left-content {
+    .left > div {
         border-left: none;
         border-right: 5px solid var(--color-11);
     }
