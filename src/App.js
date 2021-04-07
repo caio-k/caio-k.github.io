@@ -10,9 +10,9 @@ function App() {
     <div>
       <Header/>
       <main>
-        <Skills/>
-        <Timeline/>
         <Projects/>
+        <Timeline/>
+        <Skills/>
       </main>
       <Contacts/>
     </div>

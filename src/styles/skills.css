@@ -1,6 +1,5 @@
 .skills-container {
-    padding-bottom: 30px;
-    padding-top: 120px;
+    padding: 20px 0 40px;
     background: var(--color-14);
 }
 
