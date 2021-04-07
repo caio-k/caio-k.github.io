@@ -6,9 +6,9 @@ function Header() {
   return (
     <header>
       <div className="header-first-part">
-        <h1>Hello, my name is <span>Caio</span>!</h1>
-        <p>I like to solve problems, especially when I help other people with my solution. I'm always trying to learn
-          during the process, just as I'm always open to new challenges and ready to face changes.</p>
+        <h1>Hey, I'm Caio!</h1>
+        <p>Problem solving is a hobby for me, especially when I help other people with my solution. I'm always trying to
+          learn during the process, just as I'm always open to new challenges and ready to face changes.</p>
       </div>
       <div className="header-second-part">
         <div className="header-info-box">
