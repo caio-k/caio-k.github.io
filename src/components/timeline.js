@@ -7,7 +7,7 @@ import SessionTitle from "./sessionTitle";
 function Timeline() {
   return (
     <div className="timeline">
-      <SessionTitle title={"Career"} color={"--color-14"}/>
+      <SessionTitle title={"Academic and professional experiences."} color={"--color-14"}/>
       <div className="timeline-container">
         {timelineData.map((careerData, index) => (
           <TimelineItem data={careerData} index={index} key={index}/>

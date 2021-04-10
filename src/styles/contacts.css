@@ -4,15 +4,12 @@
     background: #FFFFFF;
 }
 
-.contacts-container h4 {
-    font-weight: lighter;
-}
-
 .contacts-content {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .contacts-content a {

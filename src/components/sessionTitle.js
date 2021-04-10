@@ -5,7 +5,7 @@ function SessionTitle(props) {
   const color = getComputedStyle(document.body).getPropertyValue(props.color);
 
   return (
-    <div className="session-title" style={{borderBottomColor: color}}>
+    <div className="session-title">
       <span style={{color: color}}>{props.title}</span>
     </div>
   )

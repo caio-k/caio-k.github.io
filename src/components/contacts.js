@@ -9,8 +9,7 @@ import copyIcon from "../assets/copy.svg";
 function Contacts() {
   return (
     <footer className="contacts-container">
-      <SessionTitle title={"Contacts"} color={"--color-5"}/>
-      <h4>Lets get in touch</h4>
+      <SessionTitle title={"Let's get in touch."} color={"--color-5"}/>
       <div className="contacts-content">
 
         <a href="https://www.linkedin.com/in/caio-nakazawa-476b94169">

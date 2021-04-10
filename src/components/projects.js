@@ -21,7 +21,7 @@ function Projects() {
 
   return (
     <div className="projects-session">
-      <SessionTitle title={"Projects"} color={"--color-5"}/>
+      <SessionTitle title={"Some projects that helped me develop my skills."} color={"--color-5"}/>
 
       <div className="projects-carousel">
         <OwlCarousel className={"owl-theme"} items={3} dots={false} responsive={responsive} nav

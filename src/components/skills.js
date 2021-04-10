@@ -17,7 +17,7 @@ import "../styles/skills.css";
 function Skills() {
   return (
     <div className="skills-container">
-      <SessionTitle title={"Skills"} color={"--color-6"}/>
+      <SessionTitle title={"Skills and technologies."} color={"--color-6"}/>
 
       <div className="skills">
         <p>I have professional experience in:</p>
