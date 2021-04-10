@@ -17,27 +17,28 @@ import "../styles/skills.css";
 function Skills() {
   return (
     <div className="skills-container">
-      <SessionTitle title={"Skills and technologies."} color={"--color-6"}/>
-
       <div className="skills">
-        <p>I have professional experience in:</p>
+        <SessionTitle title={"Skills and technologies."} color={"--color-6"}/>
 
-        <div className="skill-box">
-          <SkillItem img={javaIcon} text={"Java"}/>
-          <SkillItem img={angularIcon} text={"AngularJS"}/>
-          <SkillItem img={gitIcon} text={"Git"}/>
-          <SkillItem img={sqlIcon} text={"SQL"}/>
-        </div>
+        <div className="skills-content">
+          <p>I have professional experience in:</p>
+          <div className="skill-box">
+            <SkillItem img={javaIcon} text={"Java"}/>
+            <SkillItem img={angularIcon} text={"AngularJS"}/>
+            <SkillItem img={gitIcon} text={"Git"}/>
+            <SkillItem img={sqlIcon} text={"SQL"}/>
+          </div>
 
-        <p>I also had contact with other technologies during my college years and in my personal projects:</p>
-        <div className="skill-box">
-          <SkillItem img={htmlIcon} text={"HTML"}/>
-          <SkillItem img={cssIcon} text={"CSS"}/>
-          <SkillItem img={jsIcon} text={"Javascript"}/>
-          <SkillItem img={reactJsIcon} text={"ReactJS"}/>
-          <SkillItem img={springIoIcon} text={"Spring Boot"}/>
-          <SkillItem img={cIcon} text={"C"}/>
-          <SkillItem img={herokuIcon} text={"Heroku"}/>
+          <p>I also had contact with other technologies during my college years and in my personal projects:</p>
+          <div className="skill-box">
+            <SkillItem img={htmlIcon} text={"HTML"}/>
+            <SkillItem img={cssIcon} text={"CSS"}/>
+            <SkillItem img={jsIcon} text={"Javascript"}/>
+            <SkillItem img={reactJsIcon} text={"ReactJS"}/>
+            <SkillItem img={springIoIcon} text={"Spring Boot"}/>
+            <SkillItem img={cIcon} text={"C"}/>
+            <SkillItem img={herokuIcon} text={"Heroku"}/>
+          </div>
         </div>
       </div>
     </div>
