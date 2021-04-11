@@ -43,11 +43,9 @@ function Projects() {
             <div className="project-symbol"><span>2</span></div>
             <h5>Safe School</h5>
             <div className="project-description">
-              <p>Safe School is a tool to help schools in Covid-19's epoch. It aims to control the flow of students
-                within
-                a school to avoid crowds. I used ReactJS on the front-end and Spring Boot (Java) on the back-end, and
-                hosted
-                the application on Heroku.</p>
+              <p>Safe School is a college project. It's a tool to help schools in Covid-19's epoch. It aims to control
+                the flow of students within a school to avoid crowds. We used ReactJS on the front-end and Spring Boot
+                (Java) on the back-end, and hosted the application on Heroku.</p>
             </div>
             <div className="project-links">
               <a href="https://github.com/caio-k/rp2-project-webapp">Frontend</a>
