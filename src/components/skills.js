@@ -21,7 +21,7 @@ function Skills() {
         <SessionTitle title={"Skills and technologies."} color={"--color-6"}/>
 
         <div className="skills-content">
-          <p>I have professional experience in:</p>
+          <p>I have professional experience with the technologies below:</p>
           <div className="skill-box">
             <SkillItem img={javaIcon} text={"Java"}/>
             <SkillItem img={angularIcon} text={"AngularJS"}/>
