@@ -11,8 +11,7 @@ function Contacts() {
     <footer className="contacts-container">
       <SessionTitle title={"Let's get in touch."} color={"--color-5"}/>
       <div className="contacts-content">
-
-        <a href="https://www.linkedin.com/in/caio-nakazawa-476b94169">
+        <a href="https://www.linkedin.com/in/caio-nakazawa/">
           <img src={linkedinIcon} alt={"LinkedIn"}/>
           <br/>
           <span>LinkedIn</span>

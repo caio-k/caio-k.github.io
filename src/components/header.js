@@ -32,14 +32,14 @@ function Header() {
               <div>
                 <span className="object-name">me</span>
                 <span>.</span>
-                <span className="attribute">age </span>
-                <span>= 20;</span>
+                <span className="attribute">setAge</span>
+                <span>(21);</span>
               </div>
               <div>
                 <span className="object-name">me</span>
                 <span>.</span>
-                <span className="attribute">location </span>
-                <span>= "Sao Paulo";</span>
+                <span className="attribute">setLocation</span>
+                <span>("Sao Paulo");</span>
               </div>
               <br/>
               <div>
