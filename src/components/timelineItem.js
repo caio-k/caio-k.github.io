@@ -4,13 +4,18 @@ import "../styles/timeline-item.css";
 const TimelineItem = ({data, index}) => (
   <div className={index % 2 === 0 ? "timeline-box left" : "timeline-box right"}>
     <div className={"timeline-content"}>
-      <span>{data.institution} - {data.title}</span>
+      <span>{data.institution}</span>
 
       <div>
-        <span>From {data.begin} to {data.end}</span>
+        {data.positions.map((position, index) => {
+          return (
+            <>
+              <span className={"timeline-role-content"}>{position.role} - From {position.begin} to {position.end}</span>
+              {position.description.map((descriptionItem, index) => <p key={index}>{descriptionItem}</p>)}
+            </>
+          )
+        })}
       </div>
-
-      {data.description.map((descriptionItem, index) => <p key={index}>{descriptionItem}</p>)}
     </div>
   </div>
 );
