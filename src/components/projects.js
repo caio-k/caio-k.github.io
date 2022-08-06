@@ -26,21 +26,34 @@ function Projects() {
       <div className="projects-carousel">
         <OwlCarousel className={"owl-theme"} items={3} dots={false} responsive={responsive} nav
                      navText={['&#8592;', '&#8594;']} navClass={['projects-carousel-nav', 'projects-carousel-nav']}>
+
           <div className="project">
             <div className="project-symbol"><span>1</span></div>
-            <h5>Sorting Visualizer</h5>
+            <h5>Monthly Expenses</h5>
             <div className="project-description">
-              <p>This is a visualization tool for sorting algorithms. I used AngularJS in this project and hosted the
-                application on GitHub Pages.</p>
+              <p>Monthly Expenses is a tool for managing personal expenses. I used ReactJS on the front-end and Spring
+                Boot (Java) on the back-end, and hosted the application on Heroku.</p>
             </div>
             <div className="project-links">
-              <a href="https://github.com/caio-k/sorting-visualizer">Code</a>
-              <a href="https://caio-k.github.io/sorting-visualizer/#!/">Application</a>
+              <a href="https://github.com/caio-k/monthly-expenses-webapp">Frontend</a>
+              <a href="https://github.com/caio-k/monthly-expenses-server">Backend</a>
+              <a href="https://monthly-expenses-app.herokuapp.com/">Application</a>
             </div>
           </div>
 
           <div className="project">
             <div className="project-symbol"><span>2</span></div>
+            <h5>Tradutor Braille</h5>
+            <div className="project-description">
+              <p> Tradutor Braille is a simple and free resource to convert texts to braille. I used NextJS on the front-end and hosted the application on Vercel.</p>
+            </div>
+            <div className="project-links">
+              <a href="https://www.tradutorbraille.com.br/">Application</a>
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="project-symbol"><span>3</span></div>
             <h5>Safe School</h5>
             <div className="project-description">
               <p>Safe School is a college project. It's a tool to help schools in Covid-19's epoch. It aims to control
@@ -55,16 +68,15 @@ function Projects() {
           </div>
 
           <div className="project">
-            <div className="project-symbol"><span>3</span></div>
-            <h5>Monthly Expenses</h5>
+            <div className="project-symbol"><span>4</span></div>
+            <h5>Sorting Visualizer</h5>
             <div className="project-description">
-              <p>Monthly Expenses is a tool for managing personal expenses. I used ReactJS on the front-end and Spring
-                Boot (Java) on the back-end, and hosted the application on Heroku.</p>
+              <p>This is a visualization tool for sorting algorithms. I used AngularJS in this project and hosted the
+                application on GitHub Pages.</p>
             </div>
             <div className="project-links">
-              <a href="https://github.com/caio-k/monthly-expenses-webapp">Frontend</a>
-              <a href="https://github.com/caio-k/monthly-expenses-server">Backend</a>
-              <a href="https://monthly-expenses-app.herokuapp.com/">Application</a>
+              <a href="https://github.com/caio-k/sorting-visualizer">Code</a>
+              <a href="https://caio-k.github.io/sorting-visualizer/#!/">Application</a>
             </div>
           </div>
 

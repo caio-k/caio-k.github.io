@@ -31,7 +31,7 @@ function Contacts() {
       </div>
       <div className="email-session">
         <h4>
-          Email: <input id="email" value="caionakazawa@usp.br" readOnly={true}/>
+          Email: <input id="email" value="koiti2000@hotmail.com" readOnly={true}/>
         </h4>
         <img src={copyIcon} alt="Copy" width={20} height={20} onClick={() => copyEmail()}/>
       </div>

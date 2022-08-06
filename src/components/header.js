@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import photo from "../assets/photo.jpeg";
+import AgeCalculator from "../utils/AgeCalculator";
 
 function Header() {
   return (
@@ -33,7 +34,7 @@ function Header() {
                 <span className="object-name">me</span>
                 <span>.</span>
                 <span className="attribute">setAge</span>
-                <span>(21);</span>
+                <span>({AgeCalculator("06/06/2000")});</span>
               </div>
               <div>
                 <span className="object-name">me</span>
