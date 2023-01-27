@@ -23,11 +23,11 @@ function Contacts() {
           <span>GitHub</span>
         </a>
 
-        <a href="cv-caio-koiti-nakazawa.pdf">
-          <img src={resumeIcon} alt={"Resume"}/>
-          <br/>
-          <span>Resume</span>
-        </a>
+        {/*<a href="cv-caio-koiti-nakazawa.pdf">*/}
+        {/*  <img src={resumeIcon} alt={"Resume"}/>*/}
+        {/*  <br/>*/}
+        {/*  <span>Resume</span>*/}
+        {/*</a>*/}
       </div>
       <div className="email-session">
         <h4>
